@@ -1,5 +1,9 @@
 dia = int(input('Informe o dia: '))
+<<<<<<< HEAD
 if dia > 31:
+=======
+    print('Dia invalido')
+>>>>>>> teste2
     while dia > 31:
         dia = int(input('Insira um dia válido: '))
         if dia > 0 and dia <= 31:
@@ -16,3 +20,7 @@ if mes > 12:
 ano = int(input('Informe o ano: '))
 
 print(f'{dia}/{mes}/{ano}')
+<<<<<<< HEAD
+=======
+
+>>>>>>> teste2
